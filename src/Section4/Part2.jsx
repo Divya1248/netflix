@@ -1,14 +1,18 @@
 import React, { Component } from 'react';
 import Leftpart from './Leftpart';
 import Rightpart from './Rightpart';
-import "./Section2.css"
+import "./Section4.css"
 class Part2 extends Component {
     render() {
         return (
-            <div>
-                <Leftpart/>
-                <Rightpart/>
-            </div>
+          <section className="Second">
+            <article>
+        
+                <Leftpart />
+                <Rightpart />
+             
+            </article>
+          </section>
         );
     }
 }

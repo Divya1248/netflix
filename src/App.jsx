@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Footer from './Footer';
 import Header from './Section/header/TopHeader/Header';
 import Whole from './section2/Whole';
 import Part from './Section3/Part';
@@ -11,7 +12,8 @@ class App extends Component {
                 <Header/>
                 <Whole/>
                 <Part/>
-                <Part2/>
+                <Part2 />
+               <Footer/>
             </div>
         );
     }
