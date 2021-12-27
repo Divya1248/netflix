@@ -1,0 +1,32 @@
+.Part{
+    background-color:black;
+    display: flex;
+    width:100%;
+    height: 100%;
+  margin-top: 10px;
+}
+
+.Part article{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    /* margin: 0 auto; */
+}
+
+.Rightside{
+    color:white;
+    font-size: 35px;
+    flex-basis: 50%;
+    justify-content: flex-start;
+   padding:100px 50px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif- ;
+ 
+  
+}
+
+.Leftside{
+    display: flex;
+    color:white;
+    flex-basis: 50%;
+    justify-content: flex-end;
+}

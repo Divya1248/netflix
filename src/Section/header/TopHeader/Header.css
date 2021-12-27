@@ -1,0 +1,141 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css");
+.Block{
+    width:100%;
+    position: relative;
+    height: 100vh;
+    
+}
+.Block article div{
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+   
+    
+   
+}
+
+.Block{
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/5dd45df7-33f1-4274-97ea-e9c6aca69dad/ed1cb962-411d-4e43-bad2-33f07ae8e341/IN-en-20211108-popsignuptwoweeks-perspective_alpha_website_large.jpg"),
+     linear-gradient(to top,rgba(0,0,0,.8) 0,rgba(0,0,0,0) 60%,rgba(0,0,0,.8) 100%);
+     
+    }
+.leftBlock{
+    display: flex;
+    flex-basis: 50%;
+    /* align-items: center; */
+    justify-content: flex-start;
+}
+
+.rightBlock{
+    display: flex;
+    flex-basis: 30%;
+    /* align-items: center; */
+    justify-content: flex-end;
+    padding: 10px 80px;
+    width:50%;
+  
+}
+
+#Logo{
+    width:200px;
+    height: 50px;
+}
+
+.rightBlock article div ul  {
+    display: flex;
+    
+}
+
+.rightBlock article div ul li {
+    margin: 0 10px 0 10px;
+    list-style: none;
+    
+}
+.rightBlock article div ul li a{
+    text-decoration: none;
+    color:#fff;  
+    padding: 10px; 
+}
+
+.rightBlock article div ul li:nth-child(1){
+    border: 3px solid #111;
+    font-size: 20px;
+    background-color: rgba(0,0,0,0.4);
+    border: none;
+    
+    
+}
+
+
+.rightBlock article div ul li:nth-child(2){
+    border: 1px solid #111;
+    background-color: red;
+    font-size: 20px;
+    
+    
+}
+
+.middleBlock {
+    font-size: 50px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    padding: 10px 10px;
+    text-align: center;
+    padding-top: 50px;
+    
+}
+
+.middle{
+    /* font-size: 50px; */
+    display: block;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    font-size:26px;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 20px ;
+    
+}
+
+.middle1{
+    /* font-size: 50px; */
+    display: block;
+    align-items: center;
+    justify-content: center;
+    color:rgb(255, 255, 255);
+    font-size:24px;
+    text-align: center;
+    font-family: sans-serif;
+    margin: -18px;
+    margin-left: 14px;
+    
+}
+
+#formBlock{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    padding: 10px 10px;
+    text-align: center;
+}
+
+#formBlock input{
+    height: 60px;
+    width: 40%;
+    font-size: 20px;
+    padding-left: 30px;
+}
+button{
+    background-color: rgb(207, 81, 81);
+    color: white;
+    font-size: 30px;
+    /* padding: 15px 45px; */
+    height: 60px;
+    width:230px;
+    padding:10px 10px;
+}
+
